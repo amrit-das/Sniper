@@ -1,0 +1,2 @@
+# Sniper
+Shooting Humanoid bot
