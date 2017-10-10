@@ -4,7 +4,7 @@ from math import *
 
 fire_ids=[2,4,6]
 armangle=90
-t=100
+
 d=.06
 head = float(raw_input())
 arm = degrees(atan((sin(head*pi/180)-d)/ cos(head*pi/180)))
