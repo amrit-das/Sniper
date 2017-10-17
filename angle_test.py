@@ -19,10 +19,10 @@ print "Is port se judna hai",ports[0]
 dxl = pypot.dynamixel.DxlIO(ports[0])
 ids = dxl.scan(range(20))
 print ids
-dxl.set_goal_position({19: head})
-dxl.set_goal_position({2:-90})
+dxl.set_goal_position({19: head+47})
+dxl.set_goal_position({2:0})
 time.sleep(0.01)
-dxl.set_goal_position({4:45-arm})
+dxl.set_goal_position({4:180+arm})
 
 print arm,head
 #print dxl.get_present_position([4])
