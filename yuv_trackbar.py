@@ -12,7 +12,7 @@ cv2.namedWindow('image')
 cv2.createTrackbar('Y','image',0,255,nothing)
 cv2.createTrackbar('U','image',0,255,nothing)
 cv2.createTrackbar('V','image',0,255,nothing)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(2)
 boln = True
 while boln:
     y = cv2.getTrackbarPos('Y','image')
